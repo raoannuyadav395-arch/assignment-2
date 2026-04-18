@@ -1,0 +1,59 @@
+output for task 1
+
+Initial Capacity: 2
+
+
+Appended 1: Current Array [1]
+Appended 2: Current Array [1, 2]
+--- Resizing: 2 -> 4 ---
+Triggered Resize: Appended 3, Capacity grew to 4
+Appended 4: Current Array [1, 2, 3, 4]
+--- Resizing: 4 -> 8 ---
+Triggered Resize: Appended 5, Capacity grew to 8
+Appended 6: Current Array [1, 2, 3, 4, 5, 6]
+Appended 7: Current Array [1, 2, 3, 4, 5, 6, 7]
+Appended 8: Current Array [1, 2, 3, 4, 5, 6, 7, 8]
+--- Resizing: 8 -> 16 ---
+Triggered Resize: Appended 9, Capacity grew to 16
+Appended 10: Current Array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+--- Performing 3 Pops ---
+Popped: 10 | Current Array: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Popped: 9 | Current Array: [1, 2, 3, 4, 5, 6, 7, 8]
+Popped: 8 | Current Array: [1, 2, 3, 4, 5, 6, 7]
+Final State: [1, 2, 3, 4, 5, 6, 7] (Size: 7, Capacity: 16)
+
+
+task 2
+--- Task 2(A): Singly Linked List ---
+After insertions:
+30 -> 20 -> 10 -> 40 -> 50 -> 60
+After deleting 20:
+30 -> 10 -> 40 -> 50 -> 60
+
+--- Task 2(B): Doubly Linked List ---
+After inserting 99 after 2:
+1 -> 2 -> 99 -> 3
+After deleting at position 1:
+1 -> 2 -> 99 -> 3
+
+
+
+task 3
+--- Task 3(A): Stack Operations (LIFO) ---
+Peek after pushing 10, 20: 20
+Popped: 20
+Stack empty? False
+
+--- Task 3(B): Queue Operations (FIFO) ---
+Front after enqueuing A, B: A
+Dequeued: A
+Queue empty? False
+
+
+
+--- Task 4: Balanced Parentheses Checker ---
+Input: '([])' -> Result: Balanced (Expected: True)
+Input: '([)]' -> Result: Not Balanced (Expected: False)
+Input: '(((' -> Result: Not Balanced (Expected: False)
+Input: '' -> Result: Balanced (Expected: True)
